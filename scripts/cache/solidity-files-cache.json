@@ -1,0 +1,79 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\saiki\\vault-tests\\contracts\\AuthorizationManager.sol": {
+      "lastModificationDate": 1766499122493,
+      "contentHash": "0429e9bf1805aded4d38b6134ecbf6cc",
+      "sourceName": "contracts/AuthorizationManager.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "AuthorizationManager"
+      ]
+    },
+    "C:\\Users\\saiki\\vault-tests\\contracts\\SecureVault.sol": {
+      "lastModificationDate": 1766499156098,
+      "contentHash": "b4be59b4f7807175a8bc9a4b0ee4122c",
+      "sourceName": "contracts/SecureVault.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AuthorizationManager.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "SecureVault"
+      ]
+    }
+  }
+}
